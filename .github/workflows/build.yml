@@ -49,7 +49,7 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
-      - name: Upload modules to release
+      - name: Upload modules to release versioned
         uses: svenstaro/upload-release-action@v2
         with:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
@@ -57,6 +57,17 @@ jobs:
           file: ./build/*
           release_name: ReVanced
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+          file_glob: true
+          overwrite: true
+
+      - name: Upload modules to release latest
+        uses: svenstaro/upload-release-action@v2
+        with:
+          body: ${{ steps.get_output.outputs.BUILD_LOG }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./build/*
+          release_name: ReVanced
+          tag: latest
           file_glob: true
           overwrite: true
 
