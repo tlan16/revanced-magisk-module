@@ -1,10 +1,5 @@
 name: Build Modules
-
-on:
-  schedule:
-    - cron: "0 14 * * *"
-  workflow_dispatch:
-  workflow_call:
+on: [workflow_call, workflow_dispatch]
 
 jobs:
   run:
