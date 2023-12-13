@@ -1,0 +1,1 @@
+git@github.com:j-hc/revanced-magisk-module.git
