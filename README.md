@@ -2,13 +2,13 @@
 
 # ReVanced Magisk Module
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rvc_magisk)
-[![CI](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml)
+[![CI](https://github.com/tlan16/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/tlan16/revanced-magisk-module/actions/workflows/ci.yml)
 
 Extensive ReVanced builder  
 
-Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/releases).
+Get the [latest CI release](https://github.com/tlan16/revanced-magisk-module/releases).
 
-Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
+Use [**zygisk-detach**](https://github.com/tlan16/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
 
 <details><summary><big>Features</big></summary>
 <ul>
@@ -29,11 +29,11 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 </details>
 
 ## To include/exclude patches or patch other apps
-[**See the list of patches**](https://j-hc.github.io/rvmm-config-gen/)
+[**See the list of patches**](https://tlan16.github.io/rvmm-config-gen/)
 
  * Star the repo :eyes:
- * Use the repo as a [template](https://github.com/new?template_name=revanced-magisk-module&template_owner=j-hc)
- * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
+ * Use the repo as a [template](https://github.com/new?template_name=revanced-magisk-module&template_owner=tlan16)
+ * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://tlan16.github.io/rvmm-config-gen/)
  * Run the build [workflow](../../actions/workflows/build.yml)
  * Grab your modules and APKs from [releases](../../releases)
 
@@ -42,12 +42,12 @@ also see here [`CONFIG.md`](./CONFIG.md)
 ## Building Locally
 ### On Termux
 ```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
+bash <(curl -sSf https://raw.githubusercontent.com/tlan16/revanced-magisk-module/main/build-termux.sh)
 ```
 
 ### On Desktop
 ```console
-$ git clone https://github.com/j-hc/revanced-magisk-module
+$ git clone https://github.com/tlan16/revanced-magisk-module
 $ cd revanced-magisk-module
 $ ./build.sh
 ```
