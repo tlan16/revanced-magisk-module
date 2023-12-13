@@ -151,3 +151,6 @@ jobs:
           name: logs
           path: logs
           if-no-files-found: ignore
+
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@1.1.0
