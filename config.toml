@@ -6,12 +6,6 @@ rv-brand = "Frank"
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-arch = "arm64-v8a"
-build-mode = "module"
-included-patches = "'Enable slide to seek'"
-
 [Messenger]
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
@@ -60,6 +54,8 @@ arch = "arm64-v8a"
 
 [YouTube-Extended]
 enabled = true
+arch = "arm64-v8a"
+included-patches = "'Enable slide to seek'"
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
