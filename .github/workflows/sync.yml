@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 13 * * *'
+    - cron: '0 13 */7 * *'
   workflow_dispatch:
 
 jobs:
@@ -17,3 +17,4 @@ jobs:
           owner: j-hc
           base: main
           head: main
+        continue-on-error: true
