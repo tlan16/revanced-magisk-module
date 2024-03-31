@@ -41,7 +41,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 build-mode = "module"
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
