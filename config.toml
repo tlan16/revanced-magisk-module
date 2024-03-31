@@ -6,15 +6,11 @@ rv-brand = "Frank"
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
 build-mode = "module"
 included-patches = "'Enable slide to seek'"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Messenger]
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
@@ -31,14 +27,11 @@ apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 arch = "arm64-v8a"
 build-mode = "module"
 
-[Music-Extended]
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-build-mode = "module"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
+build-mode = "module"
+included-patches = "'Permanent repeat' 'Permanent shuffle' 'Compact header'"
 
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
@@ -54,3 +47,22 @@ build-mode = "module"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 arch = "arm64-v8a"
 build-mode = "module"
+
+[Music-Extended]
+enabled = true
+app-name = "Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+build-mode = "module"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+arch = "arm64-v8a"
+
+[YouTube-Extended]
+enabled = true
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+build-mode = "module"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
