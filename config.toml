@@ -1,4 +1,3 @@
-parallel-jobs = 1
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 rv-brand = "Frank"
 
