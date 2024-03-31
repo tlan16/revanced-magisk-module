@@ -1,3 +1,4 @@
+parallel-jobs = 1
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 rv-brand = "Frank"
 
@@ -59,5 +60,5 @@ app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-build-mode = "module"
+build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
