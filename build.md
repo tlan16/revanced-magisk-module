@@ -1,7 +1,7 @@
+Music: 6.45.54  
+Twitch: 16.9.1  
 Messenger: 451.1.0.59.109  
 Tiktok: 32.5.3  
-Twitch: 16.9.1  
-Music: 6.45.54  
 Instagram: 324.0.0.27.50  
 YouTube-Extended: 19.02.39  
 
@@ -20,7 +20,3 @@ CLI: j-hc/revanced-cli-4.5.0-all.jar
 Integrations: ReVanced/revanced-integrations-1.7.0.apk  
 Patches: ReVanced/revanced-patches-4.5.0.jar  
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.5.0)  
-
-Skipped:  
-Patches: ReVanced/revanced-patches-4.5.0.jar  
-Patches: inotia00/revanced-patches-2.220.1.jar    
